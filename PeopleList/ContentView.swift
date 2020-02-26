@@ -10,7 +10,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        Image("gs")
+            .resizable()
+            .frame(height: 300)
+            .padding()
     }
 }
 
