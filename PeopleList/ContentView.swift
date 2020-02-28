@@ -9,13 +9,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var player: Player
+    
     var body: some View {
         VStack {
-            Image("gs")
+            Image(player.team.imageName)
                 .resizable()
                 .padding(0.0)
                 .aspectRatio(contentMode: .fit)
-            Image("steph")
+            Image(player.imageName)
                 .clipShape(Circle())
                 .background(Circle())
                 .foregroundColor(.white)
@@ -24,7 +27,7 @@ struct ContentView: View {
                 .shadow(radius: 15)
                 .offset(x:0, y:-30)
                 .padding(.bottom,-20)
-            Text("STEPH CURRY")
+            Text(player.name)
                 .font(.system(.largeTitle))
                 .foregroundColor(.blue)
                 .fontWeight(.black)
@@ -41,6 +44,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         
-        ContentView()
+        ContentView(player: players[3])
     }
 }
