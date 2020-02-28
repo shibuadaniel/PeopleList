@@ -16,6 +16,7 @@
 		D9F55B5F2406240E0089318E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F55B5E2406240E0089318E /* Player.swift */; };
 		D9F55B65240990120089318E /* StatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F55B64240990120089318E /* StatText.swift */; };
 		D9F55B672409959C0089318E /* PlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F55B662409959C0089318E /* PlayerRow.swift */; };
+		D9F55B692409A24D0089318E /* PlayerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F55B682409A24D0089318E /* PlayerList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D9F55B5E2406240E0089318E /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = ../../../Resources_PeopleList/Player.swift; sourceTree = "<group>"; };
 		D9F55B64240990120089318E /* StatText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatText.swift; sourceTree = "<group>"; };
 		D9F55B662409959C0089318E /* PlayerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRow.swift; sourceTree = "<group>"; };
+		D9F55B682409A24D0089318E /* PlayerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				D9F55B52240621510089318E /* Preview Content */,
 				D9F55B64240990120089318E /* StatText.swift */,
 				D9F55B662409959C0089318E /* PlayerRow.swift */,
+				D9F55B682409A24D0089318E /* PlayerList.swift */,
 			);
 			path = PeopleList;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				D9F55B4D2406214E0089318E /* SceneDelegate.swift in Sources */,
 				D9F55B4F2406214E0089318E /* ContentView.swift in Sources */,
 				D9F55B65240990120089318E /* StatText.swift in Sources */,
+				D9F55B692409A24D0089318E /* PlayerList.swift in Sources */,
 				D9F55B672409959C0089318E /* PlayerRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
