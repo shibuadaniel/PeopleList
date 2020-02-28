@@ -24,9 +24,14 @@ struct ContentView: View {
                 .shadow(radius: 15)
                 .offset(x:0, y:-30)
                 .padding(.bottom,-20)
-            Text("Steph Curry")
-                .font(.title)
-                .fontWeight(.medium)
+            Text("STEPH CURRY")
+                .font(.system(.largeTitle))
+                .foregroundColor(.blue)
+                .fontWeight(.black)
+                .padding(.bottom, 20)
+            StatText(statName: "Age", statValue: "31")
+            StatText(statName: "Height", statValue: "6'3\"")
+            StatText(statName: "Weight", statValue: "190")
             Spacer()
         }
         .edgesIgnoringSafeArea(.top)
@@ -35,6 +40,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
+        
         ContentView()
     }
 }

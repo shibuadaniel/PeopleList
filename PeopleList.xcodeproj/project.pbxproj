@@ -14,6 +14,7 @@
 		D9F55B54240621510089318E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F55B53240621510089318E /* Preview Assets.xcassets */; };
 		D9F55B57240621510089318E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F55B55240621510089318E /* LaunchScreen.storyboard */; };
 		D9F55B5F2406240E0089318E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F55B5E2406240E0089318E /* Player.swift */; };
+		D9F55B65240990120089318E /* StatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F55B64240990120089318E /* StatText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D9F55B56240621510089318E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9F55B58240621510089318E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9F55B5E2406240E0089318E /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = ../../../Resources_PeopleList/Player.swift; sourceTree = "<group>"; };
+		D9F55B64240990120089318E /* StatText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				D9F55B55240621510089318E /* LaunchScreen.storyboard */,
 				D9F55B58240621510089318E /* Info.plist */,
 				D9F55B52240621510089318E /* Preview Content */,
+				D9F55B64240990120089318E /* StatText.swift */,
 			);
 			path = PeopleList;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				D9F55B4B2406214E0089318E /* AppDelegate.swift in Sources */,
 				D9F55B4D2406214E0089318E /* SceneDelegate.swift in Sources */,
 				D9F55B4F2406214E0089318E /* ContentView.swift in Sources */,
+				D9F55B65240990120089318E /* StatText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
